@@ -37,33 +37,33 @@ h1,
 %h1 {
   // h1 only on top of page so different margins.
   @include margin-block(1 .5, 'rem');
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-xl);
   letter-spacing: -.01em;
 }
 
 h2,
 %h2 {
-  font-size: var(--fs-xl);
+  font-size: var(--fs-l);
   letter-spacing: -.01em;
 }
 
 h3,
 %h3 {
-  font-size: var(--fs-l);
+  font-size: var(--fs-m);
   letter-spacing: -.01em;
 }
 
 h4,
 %h4 {
-  font-size: var(--fs-m);
+  font-size: var(--fs-s);
 }
 
 h5,
 %h5 {
-  font-size: var(--fs-s);
+  font-size: var(--fs-xs);
 }
 
 h6,
 %h6 {
-  font-size: var(--fs-xs);
+  font-size: var(--fs-xxs);
 }
